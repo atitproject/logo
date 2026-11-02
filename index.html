@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html class="h-full scroll-smooth" dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Linkya.me | بطاقتك الرقمية… كل أعمالك في رابط واحد</title>
+<meta content="حوّل معلوماتك وأعمالك إلى بطاقة أعمال رقمية احترافية تجمع خدماتك وهاتفك وواتساب وحساباتك وموقعك في رابط واحد سهل المشاركة." name="description"/>
+<!-- Open Graph -->
+<meta content="website" property="og:type"/>
+<meta content="Linkya.me | بطاقتك الرقمية في رابط واحد" property="og:title"/>
+<meta content="خلّي أعمالك أقرب لعملائك — بطاقة أعمال رقمية احترافية تجمع كل ما تحتاجه في رابط واحد سهل المشاركة." property="og:description"/>
+<meta content="https://linkya.me/" property="og:url"/>
+<meta content="https://linkya.me/og.jpg" property="og:image"/>
+<meta content="https://linkya.me/og.jpg" property="og:image:secure_url"/>
+<meta content="image/jpeg" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Linkya.me" property="og:image:alt"/>
+<meta content="Linkya.me" property="og:site_name"/>
+<meta content="ar_AR" property="og:locale"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Linkya.me | بطاقتك الرقمية في رابط واحد" name="twitter:title"/>
+<meta content="بطاقة أعمال رقمية احترافية تجمع كل ما تحتاجه في رابط واحد." name="twitter:description"/>
+<meta content="https://linkya.me/og.jpg" name="twitter:image"/>
+<link href="https://linkya.me/" rel="canonical"/>
+<link href="favicon.ico" rel="icon" sizes="any"/>
+<link href="apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<meta content="#6D28D9" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: { DEFAULT: '#1E1B4B', soft: '#3B3663', mute: '#6B6792' },
+            violet2: '#7C3AED',
+            indigo2: '#4F46E5',
+            cyan2: '#06B6D4',
+            pink2: '#EC4899',
+          },
+          fontFamily: {
+            arabic: ['Cairo', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'Cairo', 'sans-serif'],
+          },
+          boxShadow: {
+            glow: '0 24px 60px -18px rgba(109, 40, 217, 0.45)',
+            soft: '0 12px 40px -12px rgba(30, 27, 75, 0.18)',
+            card: '0 30px 70px -20px rgba(30, 27, 75, 0.35)',
+          },
+          keyframes: {
+            floaty: { '0%,100%': { transform: 'translateY(0) rotate(-4deg)' }, '50%': { transform: 'translateY(-16px) rotate(-4deg)' } },
+            rise: { '0%': { opacity: '0', transform: 'translateY(24px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+            pulseRing: { '0%': { boxShadow: '0 0 0 0 rgba(37,211,102,0.5)' }, '70%': { boxShadow: '0 0 0 16px rgba(37,211,102,0)' }, '100%': { boxShadow: '0 0 0 0 rgba(37,211,102,0)' } },
+          },
+          animation: {
+            floaty: 'floaty 6s ease-in-out infinite',
+            rise: 'rise 0.8s cubic-bezier(0.16,1,0.3,1) both',
+            pulseRing: 'pulseRing 2.2s ease-out infinite',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    body { font-family: 'Cairo', sans-serif; -webkit-tap-highlight-color: transparent; }
+    .brand-grad { background-image: linear-gradient(120deg, #7C3AED 0%, #4F46E5 45%, #06B6D4 100%); }
+    .brand-text {
+      background-image: linear-gradient(120deg, #7C3AED 0%, #4F46E5 40%, #06B6D4 95%);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .mesh {
+      background-color: #F6F5FE;
+      background-image:
+        radial-gradient(at 12% 8%, rgba(124,58,237,0.20) 0, transparent 45%),
+        radial-gradient(at 88% 12%, rgba(6,182,212,0.18) 0, transparent 45%),
+        radial-gradient(at 70% 90%, rgba(236,72,153,0.16) 0, transparent 45%),
+        radial-gradient(at 20% 85%, rgba(79,70,229,0.16) 0, transparent 45%);
+    }
+    .glass { background: rgba(255,255,255,0.65); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.7); }
+    .delay-1 { animation-delay: .12s } .delay-2 { animation-delay: .24s } .delay-3 { animation-delay: .36s } .delay-4 { animation-delay: .48s }
+  </style>
+</head>
+<body class="mesh min-h-full text-ink antialiased overflow-x-hidden">
+<!-- decorative blobs -->
+<div class="pointer-events-none fixed -top-32 -right-24 w-[26rem] h-[26rem] rounded-full bg-violet2/25 blur-3xl"></div>
+<div class="pointer-events-none fixed top-1/3 -left-28 w-[24rem] h-[24rem] rounded-full bg-cyan2/20 blur-3xl"></div>
+
+<!-- NAV -->
+<header class="relative z-20 max-w-6xl mx-auto px-5 sm:px-8 pt-6 flex items-center justify-between">
+<a class="flex items-center gap-2.5 font-display font-extrabold text-xl tracking-tight" href="#" dir="ltr">
+<span class="w-9 h-9 rounded-xl brand-grad shadow-glow flex items-center justify-center text-white">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewbox="0 0 24 24"><path d="M13.828 10.172a4 4 0 010 5.656l-3 3a4 4 0 01-5.656-5.656l1.5-1.5m6.828-1.828a4 4 0 010-5.656l3-3a4 4 0 015.656 5.656l-1.5 1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</span>
+<span><span class="text-ink">Linkya</span><span class="brand-text">.me</span></span>
+</a>
+<a class="hidden sm:inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1eb458] text-white font-bold text-sm px-4 py-2.5 rounded-full shadow-soft active:scale-95 transition" href="https://wa.me/970599268700?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%B7%D9%84%D8%A8%20%D8%A8%D8%B7%D8%A7%D9%82%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9%20%D8%B9%D8%A8%D8%B1%20Linkya.me" rel="noopener" target="_blank">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path></svg>
+اطلب بطاقتك
+</a>
+</header>
+
+<!-- HERO -->
+<main class="relative z-10 max-w-6xl mx-auto px-5 sm:px-8">
+<section class="grid lg:grid-cols-2 gap-10 lg:gap-6 items-center pt-10 sm:pt-16 pb-10">
+<!-- copy -->
+<div class="text-center lg:text-right">
+<span class="animate-rise inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 text-xs font-bold text-violet2 shadow-soft">
+<span class="w-2 h-2 rounded-full bg-violet2 animate-pulse"></span>
+عرض افتتاحي مميز 🎉
+</span>
+<h1 class="animate-rise delay-1 mt-5 text-3xl sm:text-5xl font-extrabold leading-[1.25] tracking-tight">
+          بطاقتك الرقمية…<br/>
+<span class="brand-text">كل أعمالك في رابط واحد!</span>
+</h1>
+<p class="animate-rise delay-2 mt-4 text-lg sm:text-xl font-bold text-ink-soft">
+          خلّي أعمالك أقرب لعملائك مع <span class="brand-text font-extrabold" dir="ltr">Linkya.me</span>
+</p>
+<p class="animate-rise delay-3 mt-4 text-[15px] sm:text-base leading-relaxed text-ink-mute max-w-xl mx-auto lg:mx-0">
+          حوّل معلوماتك وأعمالك إلى بطاقة أعمال رقمية احترافية تجمع كل ما تحتاجه في مكان واحد! اعرض خدماتك، رقم هاتفك، واتساب، حسابات التواصل الاجتماعي وموقعك الإلكتروني من خلال رابط واحد سهل المشاركة، وشارك بطاقتك مع عملائك بضغطة واحدة.
+        </p>
+<p class="animate-rise delay-3 mt-3 text-[15px] sm:text-base leading-relaxed font-semibold text-ink max-w-xl mx-auto lg:mx-0">
+          أطلق بطاقتك الرقمية الآن بسعر افتتاحي مميز، وامنح عملك حضوراً أكثر احترافية في العالم الرقمي.
+        </p>
+<!-- CTA -->
+<div class="animate-rise delay-4 mt-7 flex flex-col sm:flex-row items-center lg:justify-start justify-center gap-3">
+<a class="group w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#1eb458] text-white font-extrabold text-base px-7 py-4 rounded-2xl shadow-[0_18px_40px_-12px_rgba(37,211,102,0.6)] active:scale-[0.98] transition animate-pulseRing" href="https://wa.me/970599268700?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%B7%D9%84%D8%A8%20%D8%A8%D8%B7%D8%A7%D9%82%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9%20%D8%B9%D8%A8%D8%B1%20Linkya.me" rel="noopener" target="_blank">
+<svg class="w-6 h-6 fill-current transition-transform group-hover:scale-110" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885z"></path></svg>
+          اطلب بطاقتك الآن عبر واتساب
+        </a>
+</div>
+<p class="animate-rise delay-4 mt-3 text-sm text-ink-mute flex items-center justify-center lg:justify-start gap-2" dir="ltr">
+<svg class="w-4 h-4 text-[#25D366]" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          +970 599 268 700
+        </p>
+</div>
+
+<!-- phone / card mockup -->
+<div class="relative flex justify-center lg:justify-end">
+<div class="absolute inset-0 brand-grad opacity-20 blur-3xl rounded-full"></div>
+<div class="animate-floaty relative w-[270px] sm:w-[300px] rounded-[2.2rem] bg-white shadow-card border-[6px] border-white p-3">
+<div class="rounded-[1.7rem] overflow-hidden bg-gradient-to-b from-[#F6F5FE] to-white">
+<!-- card header -->
+<div class="brand-grad h-24 relative">
+<div class="absolute -bottom-9 right-1/2 translate-x-1/2 w-[72px] h-[72px] rounded-2xl bg-white shadow-soft flex items-center justify-center">
+<span class="w-[60px] h-[60px] rounded-xl brand-grad flex items-center justify-center text-white text-2xl font-black font-display">L</span>
+</div>
+</div>
+<div class="pt-12 pb-5 px-4 text-center">
+<p class="font-extrabold text-ink">اسم نشاطك التجاري</p>
+<p class="text-[11px] text-ink-mute mb-4">بطاقة أعمال رقمية</p>
+<div class="space-y-2.5 text-right">
+<div class="flex items-center gap-2.5 bg-white rounded-xl px-3 py-2.5 shadow-soft">
+<span class="w-8 h-8 rounded-lg bg-[#25D366]/15 text-[#1eb458] flex items-center justify-center"><svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path></svg></span>
+<span class="text-xs font-bold text-ink-soft">واتساب</span>
+</div>
+<div class="flex items-center gap-2.5 bg-white rounded-xl px-3 py-2.5 shadow-soft">
+<span class="w-8 h-8 rounded-lg bg-indigo2/15 text-indigo2 flex items-center justify-center"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<span class="text-xs font-bold text-ink-soft">اتصال مباشر</span>
+</div>
+<div class="flex items-center gap-2.5 bg-white rounded-xl px-3 py-2.5 shadow-soft">
+<span class="w-8 h-8 rounded-lg bg-pink2/15 text-pink2 flex items-center justify-center"><svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0 3.675a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></span>
+<span class="text-xs font-bold text-ink-soft">سوشال ميديا</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FEATURES -->
+<section class="pb-6">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-3 sm:gap-4">
+<div class="glass rounded-2xl p-4 text-center shadow-soft">
+<span class="mx-auto mb-2 w-11 h-11 rounded-xl brand-grad text-white flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<p class="text-xs sm:text-sm font-bold">خدماتك</p>
+</div>
+<div class="glass rounded-2xl p-4 text-center shadow-soft">
+<span class="mx-auto mb-2 w-11 h-11 rounded-xl brand-grad text-white flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<p class="text-xs sm:text-sm font-bold">رقم هاتفك</p>
+</div>
+<div class="glass rounded-2xl p-4 text-center shadow-soft">
+<span class="mx-auto mb-2 w-11 h-11 rounded-xl bg-[#25D366] text-white flex items-center justify-center"><svg class="w-5 h-5 fill-current" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path></svg></span>
+<p class="text-xs sm:text-sm font-bold">واتساب</p>
+</div>
+<div class="glass rounded-2xl p-4 text-center shadow-soft">
+<span class="mx-auto mb-2 w-11 h-11 rounded-xl brand-grad text-white flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M8.684 13.342C8.886 12.938 9 12.482 9 12s-.114-.938-.316-1.342m0 2.684l6.632 3.316m-6.632-6l6.632-3.316M18 8a3 3 0 100-6 3 3 0 000 6zm0 13a3 3 0 100-6 3 3 0 000 6zM6 15a3 3 0 100-6 3 3 0 000 6z" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<p class="text-xs sm:text-sm font-bold">سوشال ميديا</p>
+</div>
+<div class="glass rounded-2xl p-4 text-center shadow-soft col-span-2 md:col-span-1">
+<span class="mx-auto mb-2 w-11 h-11 rounded-xl brand-grad text-white flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<p class="text-xs sm:text-sm font-bold">موقعك الإلكتروني</p>
+</div>
+</div>
+</section>
+
+<!-- CTA BAND -->
+<section class="py-10">
+<div class="relative overflow-hidden rounded-[2rem] brand-grad shadow-glow px-6 sm:px-10 py-10 text-center text-white">
+<div class="absolute -top-16 -left-10 w-48 h-48 rounded-full bg-white/10 blur-2xl"></div>
+<div class="absolute -bottom-20 -right-10 w-56 h-56 rounded-full bg-white/10 blur-2xl"></div>
+<h2 class="relative text-2xl sm:text-3xl font-extrabold leading-snug">جاهز تطلق بطاقتك الرقمية؟</h2>
+<p class="relative mt-2 text-white/85 text-sm sm:text-base max-w-lg mx-auto">بضغطة واحدة تصل كل معلوماتك لعملائك — ابدأ الآن بسعر افتتاحي مميز.</p>
+<a class="relative mt-6 inline-flex items-center justify-center gap-3 bg-white text-[#128C3E] font-extrabold text-base px-7 py-4 rounded-2xl shadow-soft active:scale-[0.98] hover:bg-white/95 transition" href="https://wa.me/970599268700?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%B7%D9%84%D8%A8%20%D8%A8%D8%B7%D8%A7%D9%82%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9%20%D8%B9%D8%A8%D8%B1%20Linkya.me" rel="noopener" target="_blank">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path></svg>
+          اطلب بطاقتك الآن عبر واتساب
+        </a>
+</div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer class="relative z-10 border-t border-ink/10 mt-4">
+<div class="max-w-6xl mx-auto px-5 sm:px-8 py-7 flex flex-col sm:flex-row items-center justify-between gap-4">
+<a class="flex items-center gap-2 font-display font-extrabold" href="#" dir="ltr">
+<span class="w-7 h-7 rounded-lg brand-grad flex items-center justify-center text-white text-xs">L</span>
+<span><span class="text-ink">Linkya</span><span class="brand-text">.me</span></span>
+</a>
+<p class="text-xs text-ink-mute">© 2025 Linkya.me — جميع الحقوق محفوظة.</p>
+<a class="inline-flex items-center gap-2 text-sm font-bold text-[#128C3E]" href="https://wa.me/970599268700" rel="noopener" target="_blank" dir="ltr">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path></svg>
+          +970 599 268 700
+        </a>
+</div>
+</footer>
+</body></html>
