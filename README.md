@@ -2,9 +2,9 @@
 
 البطاقة الرقمية لـ Logo & Logistics.
 
-- `Logo-Logistics/index.html` — البطاقة
-- `Logo-Logistics/logo.jpg` — الشعار
-- `Logo-Logistics/favicon.ico` وملفات الأيقونات
+- `logo-logistics/index.html` — البطاقة
+- `logo-logistics/logo.jpg` — الشعار
+- `logo-logistics/favicon.ico` وملفات الأيقونات
 - `CNAME` — الدومين المخصص (linkya.me)
 
-تُعرض عبر الدومين المخصص على: https://linkya.me/Logo-Logistics/
+تُعرض عبر الدومين المخصص على: https://linkya.me/logo-logistics/
