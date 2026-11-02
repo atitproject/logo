@@ -1,8 +1,10 @@
 # Logo & Logistics — Digital Business Card
 
-صفحة البطاقة الرقمية لـ Logo & Logistics.
+البطاقة الرقمية لـ Logo & Logistics.
 
-- `index.html` — البطاقة
-- `logo.jpg` — الشعار
+- `Logo-Logistics/index.html` — البطاقة
+- `Logo-Logistics/logo.jpg` — الشعار
+- `Logo-Logistics/favicon.ico` وملفات الأيقونات
+- `CNAME` — الدومين المخصص (linkya.me)
 
-تُعرض عبر GitHub Pages على: https://atitproject.github.io/logo/
+تُعرض عبر الدومين المخصص على: https://linkya.me/Logo-Logistics/
