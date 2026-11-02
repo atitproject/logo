@@ -478,11 +478,35 @@
     }
 
     function copyToClipboard(text) {
-      navigator.clipboard.writeText(text).then(() => {
-        showNotification('تم نسخ رابط البطاقة إلى الحافظة');
-      }).catch(() => {
-        showNotification('تم تحديد الرابط للمشاركة');
-      });
+      // Prefer the async Clipboard API on secure (https) contexts…
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text)
+          .then(() => showNotification('تم نسخ رابط البطاقة إلى الحافظة'))
+          .catch(() => fallbackCopy(text));
+      } else {
+        // …otherwise fall back to execCommand (works over http too)
+        fallbackCopy(text);
+      }
+    }
+
+    function fallbackCopy(text) {
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.top = '-1000px';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, text.length);
+        const ok = document.execCommand('copy');
+        document.body.removeChild(ta);
+        showNotification(ok ? 'تم نسخ رابط البطاقة إلى الحافظة' : 'انسخ الرابط يدويًا');
+      } catch (e) {
+        showNotification('انسخ الرابط يدويًا');
+      }
     }
 
     // vCard contact generator
